@@ -78,28 +78,3 @@ output_path = os.path.join("..","Pybank", "new.txt")
 with open(output_path, 'w') as txt_file:
  txt_file.write(output)
 
-#     # Write the first row (column headers)
-#     csvwriter.writerow(['Total Months', ""])
-
-#     # Write the second row
-#     csvwriter.writerow(['Total', '', ''])
-
-#     # Write the second row
-#     csvwriter.writerow(['Average change', '', ''])
-#     csvwriter.writerow(['Greatest Increase ', '', ''])
-#     csvwriter.writerow(['Greatest Decrease ', '', ''])
-
-# # Generate Output Summary
-# output = (
-#     f"Financial Analysis\n"
-#     f"----------------------------\n"
-#     f"Total Months: {total_months}\n"
-#     f"Total: ${total_net}\n"
-#     f"Average  Change: ${net_monthly_avg:.2f}\n"
-#     f"Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})\n"
-#     f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})\n")
-# # Print the output (to terminal)
-# print(output)
-# # Export the results to text file
-# with open(file_to_output, "w") as txt_file:
-#     txt_file.write(output)
