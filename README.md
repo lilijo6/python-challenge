@@ -3,8 +3,6 @@
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.png)
-
 * In this challenge,  a Python script was created for analyzing the financial records of "my company". It offers set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, the company has rather lax standards for accounting so the records are simple.)
 
 * This Python script analyzes the records to calculate each of the following:
@@ -35,7 +33,6 @@
 
 ## PyPoll
 
-![Vote Counting](Images/Vote_counting.png)
 
 * In this challenge, the task is helping a small, rural town modernize its vote counting process.
 
